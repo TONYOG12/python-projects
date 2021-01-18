@@ -28,8 +28,6 @@ pygame.display.set_caption("Snake Game by Tony O.G")
 icon = pygame.image.load("snake.png")
 pygame.display.set_icon(icon)
 
-#background
-background = pygame.image.load("snake_background.png")
 
 #background sound
 mixer.music.load("snake_jazz.wav")
@@ -84,9 +82,6 @@ def gameloop():
     
         #screen colour set
         screen.fill((150, 50, 50))
-        
-        #background
-        #screen.blit(background, (0, 0))
     
         while game_over == True:
         
